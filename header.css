@@ -1,0 +1,97 @@
+<style type="text/css">
+			
+			*{
+				margin:0;
+				padding:0;
+				
+			}
+			.header_{
+				position: fixed; 
+				width:100%;
+				left:50%;
+				transform:translateX(-50%);
+				//background-color:white; 
+				height: 100px;
+				z-index: 50;
+				
+			}
+			.header_maxwidth
+			{
+				position:absolute;
+				width:980px;
+				height:100px;
+				left:50%;
+				transform:translateX(-50%);
+			}
+			.header_email
+			{
+				
+				position:absolute;
+				left:750px;
+				top:50%;
+				transform:translateY(-60%);
+				width:250px;
+				height:19px;
+				
+				
+			}
+			.header_email img
+			{
+				position:absolute;
+				filter: grayscale(100%); 
+				
+				max-width: 24px; 
+				max-height: 24px; 
+				
+			}
+			.header_email h5
+			{
+				position:absolute;
+				left:28px;
+				top:3px;
+				color:black;
+				data-type="mail";
+				font-size:16px;
+			}
+			.header_phone
+			{
+				position: absolute;
+				left:600px;
+				top: 50%; 
+				transform:translateY(-50%);
+				width:250px; 
+				height: 19px;
+			}
+			.header_phone img
+			{
+				filter:grayscale(100%);
+				position: absolute;
+				max-width: 24px; 
+				max-height: 24px; 
+				
+			}
+			.header_phone h5
+			{
+				position: absolute;
+				left:28px;
+				font-size:16px;
+				
+			}
+			.header_logo
+			{
+				position: absolute;
+				top: 50%;
+				transform:translateY(-50%);
+				left: 10px; 
+				
+				
+				//width: 233px; 
+				//height: 67px;
+			}
+			.header_logo img
+			{
+				max-width: 233px; 
+				max-height: 67px; 
+				object-fit: cover;
+			}
+</style>

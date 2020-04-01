@@ -1,0 +1,204 @@
+<style type="text/css">
+	*{
+		padding:0;
+		margin:0;
+		
+	}
+	
+	@media (min-width: 400px) and (max-width:600px)
+			{
+				
+				*{
+					padding:0;
+					margin:0;
+					width:100%;
+					height:100%;
+					
+					
+				}
+				
+				
+				.header_{
+					
+					width:30%;
+					height:50px;
+					left:0;
+					top:0;
+					transform:none;
+					
+				}
+				.header_maxwidth{
+					width:100%;
+					height:100%;
+				}
+				.header_phone {
+					display:none;
+				}
+				.header_email{
+					display:none;
+				}
+				.header_logo{
+				
+					position: absolute;
+					height:auto;
+					width:100%;
+					top:50%;
+					 transform: translateY(-50%);
+				}
+				.header_logo img
+				{
+					width:80%;
+					//top:50%;
+					//transform: translateY(-50%);
+				}
+	//*************foot************************/
+				.foot{
+					
+				}
+				.foot_p{
+					top:80px;
+					font-size:6px;
+				
+				}
+				.foot_maincontent{
+					width:100%;
+					height:100%;
+					
+					
+				}
+				.foot_maincontent_add
+				{
+					width:50%;
+					font-size:6px;
+					left:3px;
+				}
+				.foot_maincontent_fb{
+					
+					left:52%;
+					top:23px;
+					width:20px;
+					height:20px;
+					}
+				.foot_maincontent_info
+				{
+					left:58%;
+					width:20%;
+					font-size:8px;
+				}
+				.foot_maincontent_contact{
+					left:85%;
+					width:15%;
+					height:100%;
+					
+				}
+				.foot_maincontent_contact img{
+				
+					left:50%;
+					transform:translateX(-50%);
+					//top:34px;
+					width: 20%; 
+					height:20%;
+				}
+				.foot_maincontent_contact a
+				{
+					
+					top:60px;
+					left:10px;
+					//transform:translateX(-50%);
+					font-size:10px;
+					
+				}
+	/*************nav**************************/
+				#button_menu
+				{
+					display:block;
+				}
+				#navMenu 
+				 {
+					 height:4%;
+					 width: 65%;
+					 background-color:transparent;
+					 left:30%;
+					 top:35px;
+					 margin-left:2.5%;
+					 margin-right:2.5%;
+					 display:none;
+					 					
+				 }
+				 
+				 #navMenuleft {
+				 /*這個是控制標籤可以擺放的長度*/
+					width: 100%;
+				}
+				#nav li{
+					width: 100%; 
+					border:1px solid;
+					border-color:black;
+					background-color:#198A5E;
+					border-radius: 4px;
+				}
+				/* 第一層標題菜單設定 */
+				#nav li a, #nav li a:link, #nav li a:visited {
+					
+					color: #FFFFFF; /* 標題的字體顏色, 可自己修改 #FFFFFF是白色*/
+					margin: 0;      /* 邊緣外距離 */
+					padding:0;/* 邊緣內距離 */
+					text-align:center;
+					//line-height:25px;
+					font: normal 10px 'Ubuntu';/* 字型 :粗體 大小 字體 */
+					padding:6px 0;
+					overflow:hidden;
+					
+					width: auto;
+					height:auto;
+								
+				}
+				/* 第一層菜單(滑鼠hover over時)設定 */
+
+				#nav li a:hover, #nav li a:active {
+				//background:#317e56;/* 這個是當滑鼠指到時, 背標題的背景顏色, 可依個人喜好自行更改 */
+				color: #000000; /* 標題的字體顏色, 可自己修改 #000000是黑色*/
+				margin: 0;
+		
+				padding:6px 0;
+				overflow:hidden;
+				text-align:center;
+				
+				font: normal 10px 'Ubuntu';
+				height:auto;
+				
+				}
+				
+				
+				/* 第二層菜單(子選單)設定 */
+				#nav li li a, #nav li li a:link, 
+				#nav li li a:visited 
+				{
+					padding: 5px 0px;
+					font: normal 10px 'Ubuntu';
+					width: 100%;
+				}
+				/* 第二層菜單(滑鼠hover over時)設定 */
+				#nav li li a:hover, #nav li li a:active {
+					padding:5px 0px;
+					font: normal 10px 'Ubuntu';
+				}
+				#nav li ul{
+				
+				height: auto;
+				width: 130%;
+				background-color:transparent;
+				margin-left:100%;
+				margin-top:-10px;
+				padding:0;
+				display:inline-block;
+				}
+				#nav li ul li{
+				background-color:transparent;
+				border:0px solid;
+				}
+				
+				
+			}
+			
+</style>

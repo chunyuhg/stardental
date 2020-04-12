@@ -1,38 +1,53 @@
 $(document).ready(function() {
-		
+		/*collapse sub menu when the first click again*/
 		$('#nav>li>a').click(function(event) {
 			
 			if(event.target.id=='#ourservice')
 			{
 				
-
-				//event.preventDefault();
 				 $('#nav li:hover ul').fadeToggle();
 				
 			};
-		
-			//event.preventDefault();
-			//$('#nav>li>a').toggleClass('active');
-			//$('#nav>li').toggleClass('hover');
-			
-			//alert(1);
 
 		});	
+		/*when the button click show and collapse the menu in phone modole up */
+			
 		$('#button_menu').click(function(event) 
-			
-			
+		
 		{
-				
+				// $('#nav').fadeToggle();
 				var i=document.getElementById("navMenu")
-				//alert(i.style.display);
+				
+				var a=window.innerWidth;
+				
+				
 				if(i.style.display == "none" || i.style.display == '')
 				{
 					i.style.display ='block'
 				}else{
-					i.style.display='none'
-				};
+					i.style.display ='none'
+										
+				}
+				
 				
 				
 		});
+		/*when the screen size changed refresh page*/
+		$(window).resize(function() {
+			var i=document.getElementById("navMenu")
+			if ($(window).width() > 700 || $(window).width() < 300 )
+			{
+				
+				i.style.display ='block'
+			}else
+			{
+				i.style.display ='none'
+			}
+			/*************************************************/
+			
+			
+		});
+		
+		
 		
 });

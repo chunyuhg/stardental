@@ -4,7 +4,108 @@
 		margin:0;
 	}
 	@import './mobile_base.css';
-	@media (min-width: 400px) and (max-width:600px)
+	
+	@media (min-width: 300px) and (max-width: 537px)
+	{
+		
+		*{
+			padding:0;
+			margin:0;
+			width:100%;
+			height:100%;
+		}
+		.content
+		{	
+			width:90%;
+			height:70%;
+			margin:0px 0;
+			top:110px;
+			
+		}
+		.content_1
+		{	
+			position:relative;
+			top:0px;
+			height:auto;	
+		}
+		
+		.faderandom
+		{
+			position:relative;
+			display:inline-block;
+			width:100%;
+			
+			height:230px;
+			overflow:hidden;
+			top:0;
+			left:0;
+			margin:10px 0;
+			//display:none;
+		}
+		.faderandom img
+		{
+			display:inline;
+			width:100%;
+			margin:auto;
+			
+		}
+		
+		.content_1_googlemap
+		{
+			position:relative;
+			display:inline-block;
+			width:40%;
+			height:auto;
+			left:0px;
+			top:0px;
+			margin:20px 0 0 0;
+		}
+		
+		.content_1_p
+		{
+			position:relative;
+			display:inline-block;
+			left:0px;
+			top:0px;
+			height:auto;
+			width:40%;
+			font-size:14px;
+			margin:0 0 30px 50px;
+		}
+		.content_1_text1
+		{
+			position:relative;
+			top:0;
+			left:0;
+			display:inline-block;
+			width:100%;
+			margin:5px 0;
+			font-size:14px;
+		}
+		.content_2
+		{
+			display:none;
+		}
+		.content_3
+		{
+			display:none;
+		}
+		.content_4
+		{
+			position:relative;
+			display:inline-block;
+			top:0;
+			left:0;
+			width:100%;
+			height:auto;
+			margin:10px 0;
+			line-height:1em;
+			
+		}
+	
+	}
+		/****************************************************/
+		@media (min-width: 538px) and (max-width:963px)
 		{
 				
 			*{
@@ -15,36 +116,38 @@
 			}
 			.content
 			{	
-				width:100%;
+				width:90%;
 				height:70%;
-				top:60px;
-				left:50%;
-				//position:static;
+				top:110px;
+				
 				
 			}
 			.content_1
 			{	
-				position:static;
+				position:relative;
 				top:0px;
-				height:180px;
+				height:auto;
 			}
 			
 			.faderandom
 			{
 				position:relative;
 				display:inline-block;
-				width:80%;
-				height:100%;
+				max-width:100%;
+				
+				height:340.5px;
+				overflow:cover;
 				top:0;
 				left:0;
-				margin:10px 10%;
+				margin:10px 0;
 				//display:none;
 			}
 			.faderandom img
 			{
-				display:none;
+				display:inline;
 				width:100%;
-				margin:auto;
+				max-height:340.5px;
+				
 				//height:auto;
 				
 			}
@@ -57,7 +160,7 @@
 				height:auto;
 				left:0px;
 				top:0px;
-				margin:20px 0 0 10%;
+				margin:20px 0 0 0;
 			}
 			
 			.content_1_p
@@ -68,8 +171,8 @@
 				top:0px;
 				height:auto;
 				width:40%;
-				font-size:10px;
-				margin-left:5px;
+				font-size:14px;
+				margin:0 0 30px 50px;
 			}
 			.content_1_text1
 			{
@@ -77,13 +180,32 @@
 				top:0;
 				left:0;
 				display:inline-block;
-				width:80%;
-				margin:5px 10%;
+				width:100%;
+				margin:5px 0;
 				font-size:14px;
 			}
 			.content_2
 			{
 				display:none;
 			}
+			.content_3
+			{
+				display:none;
+			}
+			.content_4
+			{
+				position:relative;
+				display:inline-block;
+				top:0;
+				left:0;
+				width:100%;
+				height:auto;
+				margin:10px 0;
+				line-height:1em;
+				
+			}
+			
 		}
+		/**********************/
+		
 </style>

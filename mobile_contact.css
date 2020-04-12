@@ -1,0 +1,87 @@
+<style type="text/css">
+	*{
+		padding:0;
+		margin:0;
+	}
+	@import './mobile_base.css';
+	@media (min-width:300px) and (max-width:963px)
+		{
+			*{
+					padding:0;
+					margin:0;
+					width:100%;
+					height:100%;
+			}
+			.content
+			{
+				line-height:100%;
+				width:100%;
+				top:80px;
+				height:70%;
+			}
+			.content h3
+			{
+				font-size:16px;
+				text-align: center;
+				top:0;
+				width:80%;
+				height:54px;
+				padding:10px 0;
+				margin:0 10%;
+			}
+			.img_
+			{
+				display:none;
+			}
+			.content_text
+			{
+				width:80%;
+				height:auto;
+				text-align:left;
+				left:0;
+				line-height:130%;
+				font-size:14px;
+				margin:5px 10%;
+			}
+			.form
+			{
+				position:relative;
+				width:80%;
+				height:auto;
+				top:0;
+				left:0;
+				margin:5px 10%;
+			}
+			.form input[type=text]
+			{
+				width:100%;
+			}
+			.form textarea 
+			{
+				width:100%;
+			}
+			.aside
+			{
+				position:relative;
+				width:80%;
+				height:auto;
+				top:0;
+				left:0;
+				padding:5px 3px;
+				margin:10px 10%;
+				border:1px solid;
+			}
+			.location_text
+			{
+				position:relative;
+				top:5px;
+				left:0;
+				width:80%;
+				margin:0 5%;
+				padding:0 5%;
+				height:auto;
+				
+				
+			}
+		}
+</style>

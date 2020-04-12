@@ -16,9 +16,11 @@
 				background-color:#EAEDED;
 			}
 			.foot_p{
-				font-size:10px;
-				top:70px;
 				position:absolute;
+				font-size:8px;
+				bottom:0px;
+				
+				
 			}
 			.foot_border
 			{

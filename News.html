@@ -3,19 +3,17 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-		<meta name="viewport" content="width=device-width">
+		<meta name="viewport" content="width=device-width; initial-scale=1.0; user-scalable=yes; maximum-scale=0.8;">
+		<meta name="description" content="因應新型冠狀病毒疫情，為確保各人在安全情況下應診，星齒科嚴格執行量體溫、填寫健康狀況表及提供酒精搓手液等措施，以確保安全。">
 		<meta name="keywords" content=",葉慶良,牙科醫生,中環牙科醫生,口腔專科,隱形箍牙,隱形牙箍,箍牙,
 		牙齒矯正,洗牙,植齒,植牙,智慧齒,智慧牙,Invisalign 隱適美,Invisalign,Implant,Dentist,Dental Implant,
 		Dental Clinic,Dental,Bleaching,種牙,Oral Cancer,美白牙齒,牙醫,牙套,牙周病,漂牙,杜牙根,口腔癌">
 		
 		<link rel="stylesheet"  type="text/css" href="./menu.css">
 		<link rel="stylesheet"  type="text/css" href="./header.css">
-		<link rel="stylesheet"  type="text/css" media=''href="./footer.css"/>
-		
-		
-		
-		
-		<script src="./index_files/jquery.min.js.download"></script>
+		<link rel="stylesheet"  type="text/css" media=''href="./footer.css"/>	
+		<script src="./jquery.min.js.download"></script>
+		<script src="./mobile_menu.js"></script>
 		<script>
 			var renderPage = true;
 
@@ -26,32 +24,10 @@
 			renderPage = false;
 		}
 		</script>
-		<script>
-			$(document).ready(function() {
-				
-				$('#nav>li>a').click(function(event) {
-					
-					if(event.target.id=='#ourservice')
-					{
-						
-
-						//event.preventDefault();
-						 $('#nav li:hover ul').fadeToggle();
-						
-					}
-					//event.preventDefault();
-					//$('#nav>li>a').toggleClass('active');
-					//$('#nav>li').toggleClass('hover');
-					
-					
-					//alert(1);
-
-					
-				});	
-				
-			});
-		</script>
-		<title>edoctor</title>
+	
+		<title>Stardental | News</title>
+		<link rel="icon" href="./img/favicon.ico" type="image/x-icon">
+		<link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
 		<style type="text/css">
 			
 			*{
@@ -74,7 +50,7 @@
 			{
 				position:fixed;
 				width:980px;
-				height:400px;
+				height:60%;
 				top:170px;
 				z-index:-1;
 				left:50%;
@@ -88,20 +64,20 @@
 			{
 			
 				font-size:20px;	
-				padding-left:5px;
+				padding-left:20px;
 				
 			}
 			.content p
 			{
 			
 				font-size:16px;	
-				padding-left:5px;
+				padding-left:20px;
 			}
 			
 		
 		</style>
 		<!--new version of css would take over the old one-->
-		<link rel="stylesheet"  type="text/css" href="./mobile400480_news.css">		
+		<link rel="stylesheet"  type="text/css" href="./mobile_news.css">		
 	</head>
 	<body contenteditable="false">
 		
@@ -109,124 +85,113 @@
 			<div class='header_maxwidth'>
 				<div class='header_email'>
 					
-					<img src="./index_files/3ba9f6a28696f0d31da0e5d7ad956c51.png"></img>
+					<img src="./img/3ba9f6a28696f0d31da0e5d7ad956c51.png"></img>
 					<a data-content='info@stardental.com.hk'data-auto-recognition="true" style='text-decoration:none;'
 						href="mailto:info@stardental.com.hk" >
 					<h5>info@stardental.com.hk<h5></a>
 				</div>
 			
 				<div class="header_phone" >			
-				<img src="./index_files/5d958389e0a2c86896bae087d174d385.png"></img>
+				<img src="./img/5d958389e0a2c86896bae087d174d385.png"></img>
 				<h5>+852 8118 2222</h5>
 				</div>
 				
 								
 				<div class='header_logo'>
 					<a href="http://www.stardental.com.hk" target="_self">	
-						<img  data-type="image" src="./index_files/9d577b_f76c303b203f4a88977345a0fa2b69d3_mv2.png" 
+						<img  data-type="image" src="./img/9d577b_f76c303b203f4a88977345a0fa2b69d3_mv2.png" 
 							>
 					</a>
 				</div>
 			</div>
 		</header>
+		<!---------------------------------------->
+	<input type="button" id='button_menu' value='Menu'>
 		<div id='navMenu'>
 			<div id='navMenuleft'>
 				<ul id='nav'>
 					<!--下拉式菜單, 標題 1 -->
 					<li> <!-- 第一層-->
-						<a href='./index.html'>Main 首頁</a>
+						<a href='./index.html'>Main<br>首頁</a>
 					</li>
 					<!--下拉式菜單, 標題 2 -->
 					 <!-- 第一層-->
-					<li><a href='./edoctor_Doctor_Group_new.html'>Doctor Group 醫生團隊</a>
-						<!-- <ul> 
-							<li><a>HONG KONG DENTISTS</a>
-								 <ul>
-									 <li><a href='./DoctorGroup/edoctor_Doctor_Group.html'>Dr. Thomas H.L.Ip 葉慶良</a></li>
-									 <li><a href='https://請輸入你要連結的網址'>Dr. Mike T.L.Cheung 張達良</a></li>
-									 <li><a href='https://請輸入你要連結的網址'>Dr. Mei M. Chong 臧薇敏</a></li>
-									 <li><a href='https://請輸入你要連結的網址'>Dr. Paul P.L. Lui 雷普樂</a></li>
-									 <li><a href='https://請輸入你要連結的網址'>DR.JONATHAN D.C.WONG 黄大彰</a></li>
-									 <li><a href='https://請輸入你要連結的網址'>Dr. Alicia Son 孫俐俐</a></li>
-								</ul>
-							</li>
-
-							<li><a>SHANGHAI DENTISTS</a>
-								<ul>
-								 <li><a href='https://請輸入你要連結的網址'>Dr. Irene Yin 殷智慧</a></li>   
-								</ul>
-							</li>
-						</ul>   -->
+					<li><a href='./Doctor_Qualification.html'>Doctor's Qualification<br>醫生資歷</a>
+						
 					</li>
 
 					<!--下拉式菜單, 標題 3 -->
 
-					 <li><a id='#ourservice'>Our Service 服務範圍</a> <!-- 第一層-->
+					 <li><a id='#ourservice'>Our Service<br>服務範圍</a> <!-- 第一層-->
 						<ul> 
-							<li><a href='./edoctor_Our Service_new_1.html'>General Dentistry 全科牙科服務</a>
+							<li><a href='./OurService_GeneralDentistry.html'>General Dentistry<br>全科牙科服務</a>
 								
 							</li>						
-							<li><a href='./edoctor_Our Service_new_2.html'>Implant 植牙</a>
+							<li><a href='./OurService_Implant.html'>Implant<br>植牙</a>
 								
 							</li>
 							
-							<li><a href='./edoctor_Our Service_new_3.html'>Orthodontic</a>
+							<li><a href='./OurService_Orthodontic.html'>Orthodontic<br>牙齒矯正</a>
 								
 							</li>
 							
-							<li><a href='./edoctor_Our Service_new_4.html'>Root Canal Treatmente 根管治療</a>
+							<li><a href='./OurService_RootCanalTreatment.html'>Root Canal Treatment<br>根管治療</a>
 								
 							</li>
 							
-							<li><a href='./edoctor_Our Service_new_5.html'>Oral Surgery 口腔外科手術</a>
+							<li><a href='./OurService_OralSurgery.html'>Oral Surgery<br>口腔外科手術</a>
 								
 							</li>
-							<li><a href='./edoctor_Our Service_new_6.html'>Cosmetic 牙齒美容</a>
-								
-							</li>
-							
-							<li><a href='./edoctor_Our Service_new_7.html'>Periodontics Treatment System 牙周病治療</a>
+							<li><a href='./OurService_Cosmetic.html'>Cosmetic<br>牙齒美容</a>
 								
 							</li>
 							
-							<li><a href='edoctor_Our Service_new_8.html'>Sedation 麻醉</a>
+							<li><a href='./OurService_PeriodonticsTreatmentSystem.html'>Periodontics Treatment System<br>牙周病治療</a>
+								
+							</li>
+							
+							<li><a href='./OurService_Sedation.html'>Sedation<br>麻醉</a>
 								
 							</li>
 						</ul>
 					 </li>
 	
 
-					 <li><a href='./edoctor_News_new.html'>News 最新消息</a></li>
-					 <li><a href='./edoctor_Contact_new.html'>Contact 聯絡我們</a></li>
+					 <li><a href='./News.html'>News<br>最新消息</a></li>
+					 <li><a href='./Contact.html'>Contact Us<br>聯絡我們</a></li>
 				</ul>
 			</div>
 		</div>
-		<!------------------------------------------------------------------------------->
+	<!---------------------------------------->
 			<div class='content'>
 				
 				<h2><br>News 最新消息</h2>
 				<p>
-					<br>新崛起冠狀病毒（Coronavirus [CoV]),目前已知的傳染途徑有3種：
+					<br>
+					<br>因應新型冠狀病毒疫情，為確保各人在安全情況下應診，本診所嚴格執行以下各項措施：
+					<br>(1)進入本診所時必須量體溫(包括所有員工)
+					<br>(2)填寫健康狀況表
+					<br>(3)在診所範圍內須戴上口罩
+					<br>(4)提供酒精搓手液
+					<br>(5)預留數個診室，確保有足夠時間消毒，防止交叉感染
+					<br>
+					<br>新冠狀病毒（Coronavirus [CoV])目前已知的傳染途徑有3種：
 					<br>1.接觸傳播：接觸到帶有病毒的分泌物，若病毒若停留在手或皮膚上，
 					可能經由手觸摸口、鼻或眼睛而感染<br>
-					<br>2.飛沫傳染：與感染者近距離接觸約1～2公尺，就可能吸入病毒而感染
+					<br>2.飛沫傳染：與感染者近距離接觸約1～2公尺，就可能吸入病毒而感染<br>
 					<br>3.糞口傳播：目前有部分研究指出可能經由糞口傳染，帶病原體的糞便污染
-					了手或食物，也可能病從口入，但還需更進一步驗證。
-					<br>冠狀病毒（Coronavirus [CoV])的潛伏期約2～14天，接觸到病毒後約5.5天
-					後出現症狀。感染後以出現呼吸道症狀為主，包括咳嗽、發燒等，嚴重一點會喘、
+					了手或食物，也可能病從口入，但還需更進一步驗證。<br>
+					<br>新冠狀病毒（Coronavirus [CoV])的潛伏期約2～14天，接觸到病毒後約5.5天
+					後出現症狀。感染後以出現呼吸道症狀為主，包括咳嗽、發燒等，嚴重一點會
 					呼吸困難，進一步呼吸衰竭、敗血症、休克，最後缺氧死亡。
 					<br>但有些患者也有可能是無症狀感染，有些感染者只有低度發燒約37.3°C或37.5°C，
-					甚至完全沒症狀，但
-					仍具傳染力。
-					<br>為預防民眾感染冠狀病毒，請大家
-					<br>1.戴口罩、勤洗手。一般醫療口罩原則上4～8小時更換，
-					或至少1天換1片，不建議重複使用。空曠、人潮不多、沒有生病情況下，不一定要戴口罩。
+					甚至完全沒症狀，但仍具傳染力。<br>
+					<br>為預防民眾感染新冠狀病毒，請大家:
+					<br>1.戴口罩、勤洗手。<br>
 					<br>2.餐具以高溫56°C以上消毒半小時；一般用品可以用75％酒精消毒效果最好。酒精、肥皂、
-					乾洗手都能有效消滅冠狀病毒。
-					<br>3.減少觸摸眼、鼻、口。但除非醫護人員，否則一般民眾不須戴護目鏡。
-					<br>4.打流感或肺炎鏈球菌疫苗，不能預防感染2019-nCoV，但能減少發展為共病而成為重症的機會。
-					若患者已感染2019-nCoV侵犯呼吸道，會使得肺炎鏈球菌或其他細菌趁虛而入，造成次發性感染引發重症。
-					而近期流感肆虐，打疫苗可防止流感或肺炎鏈球菌的感染機會，避免因發燒等相似症狀而被隔離檢驗造成不必要的恐慌。
+					乾洗手都能有效消滅冠狀病毒。<br>
+					<br>3.減少觸摸眼、鼻、口。<br>
+					<br><br><br><br>
 				</p>
 			</div>
 	<!------------------------------------------------------------------------------>
@@ -247,7 +212,7 @@
 					
 					<div class='foot_maincontent_fb'>
 							<a href="https://www.facebook.com/StarDentalAlliance/" target="_blank" data-content="https://www.facebook.com/StarDentalAlliance/" >
-								<img  alt="Facebook Basic Black " data-type="image" src="./index_files/30646eb34311104aba036a018b9a226b.png" style="width: 100%; height: 100%; object-fit: cover;">
+								<img  alt="Facebook Basic Black " data-type="image" src="./img/30646eb34311104aba036a018b9a226b.png" style="width: 100%; height: 100%; object-fit: cover;">
 									</img></a>
 					</div>
 					
@@ -258,10 +223,10 @@
 						</p>
 					</div>
 					<div class='foot_maincontent_contact'>
-						<img data-type="image" src="./index_files/ca2a5a_6be7878962184d6fa6221b325fb9bf92.png" >
+						<img data-type="image" src="./img/ca2a5a_6be7878962184d6fa6221b325fb9bf92.png" >
 						
 						</img>
-						<a href="./Contact/edoctor_Contact.html" target="_self" >Contact Us</a>
+						<a href="./Contact.html" target="_self" >Contact Us</a>
 					</div>
 				</div>
 			<!-- </div> -->

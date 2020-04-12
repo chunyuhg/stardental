@@ -1,9 +1,10 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+	<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-		<meta name="viewport" content="width=device-width">
+		<meta name="viewport" content="width=device-width; initial-scale=1.0; user-scalable=yes; maximum-scale=0.8;">
+		<meta name="description" content="星齒科擁有均專業牙醫提供口腔外科手術包括阻生齒拔除、牙齒囊腫治療、牙骨手術以及口腔正骨。">
 		<meta name="keywords" content=",葉慶良,牙科醫生,中環牙科醫生,口腔專科,隱形箍牙,隱形牙箍,箍牙,
 		牙齒矯正,洗牙,植齒,植牙,智慧齒,智慧牙,Invisalign 隱適美,Invisalign,Implant,Dentist,Dental Implant,
 		Dental Clinic,Dental,Bleaching,種牙,Oral Cancer,美白牙齒,牙醫,牙套,牙周病,漂牙,杜牙根,口腔癌">
@@ -11,6 +12,8 @@
 		<link rel="stylesheet"  type="text/css" href="./header.css">
 		<link rel="stylesheet"  type="text/css" href="./footer.css">
 		<link rel="stylesheet"  type="text/css" href="./ourservice_base.css">
+		<script src="./jquery.min.js.download"></script>
+		<script src="./mobile_menu.js"></script>
 		<script>
 			var renderPage = true;
 
@@ -21,7 +24,9 @@
 			renderPage = false;
 		}
 		</script>
-		<title>edoctor</title>
+		<title>Stardental | Our Service</title>
+		<link rel="icon" href="./img/favicon.ico" type="image/x-icon">
+		<link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
 		<style type="text/css">
 			
 			*{
@@ -42,6 +47,7 @@
 			
 
 		</style>
+		<link rel="stylesheet"  type="text/css" href="./mobile_service.css">
 	</head>
 	</head>
 		<body contenteditable="false">
@@ -50,97 +56,83 @@
 			<div class='header_maxwidth'>
 				<div class='header_email'>
 					
-					<img src="./index_files/3ba9f6a28696f0d31da0e5d7ad956c51.png"></img>
+					<img src="./img/3ba9f6a28696f0d31da0e5d7ad956c51.png"></img>
 					<a data-content='info@stardental.com.hk'data-auto-recognition="true" style='text-decoration:none;'
 						href="mailto:info@stardental.com.hk" >
 					<h5>info@stardental.com.hk<h5></a>
 				</div>
 			
 				<div class="header_phone" >			
-				<img src="./index_files/5d958389e0a2c86896bae087d174d385.png"></img>
+				<img src="./img/5d958389e0a2c86896bae087d174d385.png"></img>
 				<h5>+852 8118 2222</h5>
 				</div>
 				
 								
 				<div class='header_logo'>
 					<a href="http://www.stardental.com.hk" target="_self">	
-						<img  data-type="image" src="./index_files/9d577b_f76c303b203f4a88977345a0fa2b69d3_mv2.png" >
+						<img  data-type="image" src="./img/9d577b_f76c303b203f4a88977345a0fa2b69d3_mv2.png" >
 					</a>
 				</div>
 			</div>
 		</header>
+		<!---------------------------------------->
+	<input type="button" id='button_menu' value='Menu'>
 		<div id='navMenu'>
 			<div id='navMenuleft'>
 				<ul id='nav'>
 					<!--下拉式菜單, 標題 1 -->
 					<li> <!-- 第一層-->
-						<a href='./index.html'>Main 首頁</a>
+						<a href='./index.html'>Main<br>首頁</a>
 					</li>
 					<!--下拉式菜單, 標題 2 -->
 					 <!-- 第一層-->
-					<li><a href='./edoctor_Doctor_Group_new.html'>Doctor Group 醫生團隊</a>
-						<!-- <ul> 
-							<li><a>HONG KONG DENTISTS</a>
-								 <ul>
-									 <li><a href='./DoctorGroup/edoctor_Doctor_Group.html'>Dr. Thomas H.L.Ip 葉慶良</a></li>
-									 <li><a href='https://請輸入你要連結的網址'>Dr. Mike T.L.Cheung 張達良</a></li>
-									 <li><a href='https://請輸入你要連結的網址'>Dr. Mei M. Chong 臧薇敏</a></li>
-									 <li><a href='https://請輸入你要連結的網址'>Dr. Paul P.L. Lui 雷普樂</a></li>
-									 <li><a href='https://請輸入你要連結的網址'>DR.JONATHAN D.C.WONG 黄大彰</a></li>
-									 <li><a href='https://請輸入你要連結的網址'>Dr. Alicia Son 孫俐俐</a></li>
-								</ul>
-							</li>
-
-							<li><a>SHANGHAI DENTISTS</a>
-								<ul>
-								 <li><a href='https://請輸入你要連結的網址'>Dr. Irene Yin 殷智慧</a></li>   
-								</ul>
-							</li>
-						</ul>   -->
+					<li><a href='./Doctor_Qualification.html'>Doctor's Qualification<br>醫生資歷</a>
+						
 					</li>
 
 					<!--下拉式菜單, 標題 3 -->
 
-					 <li><a>Our Service 服務範圍</a> <!-- 第一層-->
+					 <li><a id='#ourservice'>Our Service<br>服務範圍</a> <!-- 第一層-->
 						<ul> 
-							<li><a href='./edoctor_Our Service_new_1.html'>General Dentistry 全科牙科服務</a>
+							<li><a href='./OurService_GeneralDentistry.html'>General Dentistry<br>全科牙科服務</a>
 								
 							</li>						
-							<li><a href='./edoctor_Our Service_new_2.html'>Implant 植牙</a>
+							<li><a href='./OurService_Implant.html'>Implant<br>植牙</a>
 								
 							</li>
 							
-							<li><a href='./edoctor_Our Service_new_3.html'>Orthodontic</a>
+							<li><a href='./OurService_Orthodontic.html'>Orthodontic<br>牙齒矯正</a>
 								
 							</li>
 							
-							<li><a href='./edoctor_Our Service_new_4.html'>Root Canal Treatmente 根管治療</a>
+							<li><a href='./OurService_RootCanalTreatment.html'>Root Canal Treatment<br>根管治療</a>
 								
 							</li>
 							
-							<li><a href='./edoctor_Our Service_new_5.html'>Oral Surgery 口腔外科手術</a>
+							<li><a href='./OurService_OralSurgery.html'>Oral Surgery<br>口腔外科手術</a>
 								
 							</li>
-							<li><a href='./edoctor_Our Service_new_6.html'>Cosmetic 牙齒美容</a>
-								
-							</li>
-							
-							<li><a href='./edoctor_Our Service_new_7.html'>Periodontics Treatment System 牙周病治療</a>
+							<li><a href='./OurService_Cosmetic.html'>Cosmetic<br>牙齒美容</a>
 								
 							</li>
 							
-							<li><a href='edoctor_Our Service_new_8.html'>Sedation 麻醉</a>
+							<li><a href='./OurService_PeriodonticsTreatmentSystem.html'>Periodontics Treatment System<br>牙周病治療</a>
+								
+							</li>
+							
+							<li><a href='./OurService_Sedation.html'>Sedation<br>麻醉</a>
 								
 							</li>
 						</ul>
 					 </li>
 	
 
-					 <li><a href='./edoctor_News_new.html'>News 最新消息</a></li>
-					 <li><a href='./edoctor_Contact_new.html'>Contact 聯絡我們</a></li>
+					 <li><a href='./News.html'>News<br>最新消息</a></li>
+					 <li><a href='./Contact.html'>Contact Us<br>聯絡我們</a></li>
 				</ul>
 			</div>
 		</div>
+	<!---------------------------------------->
 		<div class='content'>
 			<h3>OUR SERVICES<br>服務範圍</h3>
 			<img class='img_'src='.\img\9d577b_48887cc9c0d9469d88ca8e5d6fd6fdc3_mv2.png'>
@@ -157,22 +149,25 @@
 			</p>
 			<h5 class='content_text_h5'><br>Treatment of dental cysts 牙齒囊腫治療</h5>
 			<p class='content_text_p'><br>口腔及顎顏面區的囊腫，以和牙齒的組織相關的齒源性囊腫為主，
-				齒源性囊腫通常會造成顎骨腫脹，因為種類不同，可能和蛀牙有關，
-				可能和缺牙或牙齒的遲緩萌發有關，因此有上述症狀又有顎骨腫脹時，應先照x-光片，
+				齒源性囊腫通常會造成顎骨腫脹，因為有多種不同種類，醫生會先照x-光片，
 				如有囊腫樣的影像，還需進一步的病理切片才能確定，
 				另外還有一些出現在軟組織及顎骨內的非齒源性囊腫，
-				也都需要口腔顎顏面外科醫師詳細的檢查。
+				也都需要口腔顎顏面牙醫詳細的檢查。最後才會為病人詳細規劃治療程序。
 			</p>
 			<h5 class='content_text_h5'><br>Osseous Surgery 牙骨手術</h5>
+                        <p class='content_text_p'><br>當牙袋很深和牙骨缺損的時候，病人可以通過做牙骨手術來延長牙齒的壽命。</p>
 			<h5 class='content_text_h5'><br>Oral Cancer 口腔癌</h5>
 			<p class='content_text_p'><br>生在口腔部位之惡性腫瘤的總稱，
 			90%屬於鱗狀細胞癌，口腔包括的部位有唇、頰黏膜（唇和臉頰的內襯）、
 			牙齒、舌頭下方的口腔底部、前三分之二的舌頭、
 			口腔頂部的前面部分（硬顎）、牙齦以及臼齒後方的小區域。
+口腔癌若未能及早發現，就需要接受手術、放射線治療與／或化學治療。口腔癌也可能致命，因此口腔癌的早期偵測是治療能否成功的關鍵。 
 			</p>
 			<h5 class='content_text_h5'><br>Jaw Reconstruction 口腔正骨</h5>
 			<h5 class='content_text_h5'><br>Corrections of Soft Tissues 軟組織的修正</h5>
-			<h5 class='content_text_h5'><br>Frenectomy 口腔系帶切除</h5>
+                        <p class='content_text_p'><br>牙齦過度外露，太高或萎縮等現象都可以透過軟組織手術及其他手術進行修正。</p>
+			<h5 class='content_text_h5'><br>Frenectomy 口腔繫帶切除</h5>
+                        <p class='content_text_p'><br>唇繫帶（frenum）是連接嘴唇的韌帶，上顎、下顎各有好幾個。唇繫帶附著在牙脊的外側，如果附著的位置太高，太靠近牙脊頂端時，會造成牙齒間隙或牙周問題。</p>
 				
 		</div>
 		<footer class='foot'>
@@ -192,7 +187,7 @@
 					
 					<div class='foot_maincontent_fb'>
 							<a href="https://www.facebook.com/StarDentalAlliance/" target="_blank" data-content="https://www.facebook.com/StarDentalAlliance/" >
-								<img  alt="Facebook Basic Black " data-type="image" src="./index_files/30646eb34311104aba036a018b9a226b.png" style="width: 100%; height: 100%; object-fit: cover;">
+								<img  alt="Facebook Basic Black " data-type="image" src="./img/30646eb34311104aba036a018b9a226b.png" style="width: 100%; height: 100%; object-fit: cover;">
 									</img></a>
 					</div>
 					
@@ -203,10 +198,10 @@
 						</p>
 					</div>
 					<div class='foot_maincontent_contact'>
-						<img data-type="image" src="./index_files/ca2a5a_6be7878962184d6fa6221b325fb9bf92.png" >
+						<img data-type="image" src="./img/ca2a5a_6be7878962184d6fa6221b325fb9bf92.png" >
 						
 						</img>
-						<a href="./Contact/edoctor_Contact.html" target="_self" >Contact Us</a>
+						<a href="./Contact.html" target="_self" >Contact Us</a>
 					</div>
 				</div>
 			<!-- </div> -->

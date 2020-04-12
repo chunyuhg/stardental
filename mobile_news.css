@@ -4,7 +4,7 @@
 		margin:0;
 	}
 	@import './mobile_base.css';
-	@media (min-width: 300px) and (max-width:650px)
+	@media (min-width: 300px) and (max-width:963px)
 			{
 				
 				*{

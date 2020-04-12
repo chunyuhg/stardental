@@ -3,7 +3,7 @@
 	if(isset($_POST['email'])) {
 		
 		// EDIT THE 2 LINES BELOW AS REQUIRED
-		$email_to = "rupm6happy@gmail.com";
+		$email_to = "info@stardental.com.hk;info@stardental.com.hk;stardentalcomhk@gmail.com";
 		$email_subject = "The comments from customers";
 	 
 		function died($error) {
@@ -63,10 +63,13 @@
 		'Reply-To: '.$email_from."\r\n" .
 		'X-Mailer: PHP/' . phpversion();
 		//@off the error message
-		@mail($email_to, $email_subject, $email_message, $headers);  
-		
+		@mail($email_to, $email_subject, $email_message, $headers);
+		//echo $test;
 	}
-	echo "Mail Sent. Thank you " . $name . ", we will contact you shortly.";
-	 
+	
+	echo "Mail Sent. Thank you " . $name . ", we will contact you shortly.<br>";
+	echo "Page will refresh in every 3 seconds</br>";
+	header("refresh: 3; url=./edoctor_Contact_new.html");
+	exit;
 	  
 ?>

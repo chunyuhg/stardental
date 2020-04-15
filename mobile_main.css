@@ -16,7 +16,7 @@
 		}
 		.content
 		{	
-			width:90%;
+			width:95%;
 			height:70%;
 			margin:0px 0;
 			top:110px;
@@ -54,7 +54,7 @@
 		{
 			position:relative;
 			display:inline-block;
-			width:40%;
+			width:43%;
 			height:auto;
 			left:0px;
 			top:0px;
@@ -68,9 +68,10 @@
 			left:0px;
 			top:0px;
 			height:auto;
-			width:40%;
-			font-size:14px;
-			margin:0 0 30px 50px;
+			width:50%;
+			font-size:16px;
+			margin:0 0 30px 3%;
+			
 		}
 		.content_1_text1
 		{
@@ -80,7 +81,7 @@
 			display:inline-block;
 			width:100%;
 			margin:5px 0;
-			font-size:14px;
+			font-size:18px;
 		}
 		.content_2
 		{
@@ -99,7 +100,8 @@
 			width:100%;
 			height:auto;
 			margin:10px 0;
-			line-height:1em;
+			line-height:130%;
+			font-size:16px;
 			
 		}
 	
@@ -116,9 +118,11 @@
 			}
 			.content
 			{	
-				width:90%;
+				
+				width:95%;
 				height:70%;
 				top:110px;
+				
 				
 				
 			}
@@ -156,7 +160,7 @@
 			{
 				position:relative;
 				display:inline-block;
-				width:40%;
+				width:45%;
 				height:auto;
 				left:0px;
 				top:0px;
@@ -170,9 +174,9 @@
 				left:0px;
 				top:0px;
 				height:auto;
-				width:40%;
-				font-size:14px;
-				margin:0 0 30px 50px;
+				width:50%;
+				font-size:20px;
+				margin:0 0 30px 3%;
 			}
 			.content_1_text1
 			{
@@ -182,7 +186,8 @@
 				display:inline-block;
 				width:100%;
 				margin:5px 0;
-				font-size:14px;
+				padding:28px 0;
+				font-size:20px;
 			}
 			.content_2
 			{
@@ -201,7 +206,8 @@
 				width:100%;
 				height:auto;
 				margin:10px 0;
-				line-height:1em;
+				line-height:130%;
+				font-size:18px;
 				
 			}
 			

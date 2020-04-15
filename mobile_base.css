@@ -65,7 +65,7 @@
 		.foot_maincontent_add
 		{
 			width:50%;
-			font-size:6px;
+			font-size:8px;
 			left:3px;
 		}
 		.foot_maincontent_fb{
@@ -261,7 +261,7 @@
 		}
 		.foot_p{
 			
-			font-size:6px;
+			font-size:7px;
 			height:auto;
 			bottom:0;
 		}
@@ -274,7 +274,7 @@
 		.foot_maincontent_add
 		{
 			width:50%;
-			font-size:6px;
+			font-size:10px;
 			left:3px;
 		}
 		.foot_maincontent_fb{
@@ -288,7 +288,7 @@
 		{
 			left:58%;
 			width:20%;
-			font-size:8px;
+			font-size:10px;
 			height:auto;
 		}
 		
@@ -477,10 +477,12 @@
 		}
 /*************foot************************/
 		.foot{
+			position:fixed;
+			
 			height:100px;
 		}
 		.foot_p{
-			font-size:6px;
+			font-size:7px;
 			height:auto;
 			bottom:0;
 		
@@ -494,22 +496,23 @@
 		.foot_maincontent_add
 		{
 			width:50%;
-			font-size:6px;
+			font-size:12px;
 			left:3px;
 		}
 		.foot_maincontent_fb{
 			
 			left:52%;
-			top:23px;
-			width:20px;
-			height:20px;
+			top:25px;
+			width:5%;
+			max-width:6.5%;
+			height:auto;
 			}
 		.foot_maincontent_info
 		{
 			left:58%;
 			width:20%;
 			height:auto;
-			font-size:8px;
+			font-size:12px;
 		}
 		.foot_maincontent_contact{
 			left:85%;

@@ -1,4 +1,7 @@
+document.write("<script type='text/javascript' src='./contact_index.js'></script>");
 $(document).ready(function() {
+	
+		
 		/*collapse sub menu when the first click again*/
 		$('#nav>li>a').click(function(event) {
 			
@@ -47,7 +50,13 @@ $(document).ready(function() {
 			
 			
 		});
+		$("head").append("<link rel='stylesheet'  type='text/css' href='./contact_index.css'>");
+		$("body").append($script);
 		
 		
 		
 });
+function myFunction() {
+			   $(".sub-index").toggle();
+			};
+

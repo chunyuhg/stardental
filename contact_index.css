@@ -1,0 +1,46 @@
+<style type="text/css">
+		*{
+			padding:0;
+			margin:0;
+			
+		}
+
+		.index_div
+			{
+				z-index:0;
+				width:auto;
+				height:auto;
+			}
+		.index_button{
+			
+			position:fixed;
+			right:10px;
+			bottom:205px;
+			width:50.44px;
+			height:auto;
+			z-index:9999;
+		}
+		.index_button >img
+		{
+			width:100%;
+			height:auto;
+		}
+		
+		.sub-index
+		{
+			display:none;
+			position:fixed;
+			right:85px;
+			bottom:185px;
+			width:67.44px;
+			height:auto;
+			z-index:9999;
+			
+		}
+		.sub-index img
+		{
+			width:100%;
+			height:auto;
+		}
+</style>
+	

@@ -1,4 +1,5 @@
 document.write("<script type='text/javascript' src='./contact_index.js'></script>");
+document.write("<script type='text/javascript' src='./if_mobileapp.js'></script>");
 $(document).ready(function() {
 	
 		
@@ -57,6 +58,6 @@ $(document).ready(function() {
 		
 });
 function myFunction() {
-			   $(".sub-index").toggle();
+			   $("._sub_index").toggle();
 			};
 

@@ -69,7 +69,7 @@
 	
 	echo "Mail Sent. Thank you " . $name . ", we will contact you shortly.<br>";
 	echo "Page will refresh in every 3 seconds</br>";
-	header("refresh: 3; url=./edoctor_Contact_new.html");
+	header("refresh: 3; url=./Contact.html");
 	exit;
 	  
 ?>
